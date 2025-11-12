@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(${CMAKE_SOURCE_DIR}/vendor)
 
 add_executable(leet_code 
-    pascal_triangle2/main.cpp
+    shortest_distance_after_queries/main.cpp
     vendor/linked_list.cpp
 )
