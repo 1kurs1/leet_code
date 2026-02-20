@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(${CMAKE_SOURCE_DIR}/vendor)
 
 add_executable(leet_code 
-    longest_subarray_of_1/main.cpp
+    regular_expression_matching/main.cpp
     vendor/linked_list.cpp
 )
