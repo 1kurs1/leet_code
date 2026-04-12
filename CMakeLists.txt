@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(${CMAKE_SOURCE_DIR}/vendor)
 
 add_executable(leet_code 
-    4.MedianofTwoSortedArrays/main.cpp
+    5.LongestPalindromicSubstring/main.cpp
     vendor/linked_list.cpp
 )
